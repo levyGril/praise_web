@@ -1,0 +1,31 @@
+{
+  "name": "praise_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d public/js",
+    "test": "karma start",
+    "start": "npm run build && serve"
+  },
+  "author": "levy.ji",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-es2015-modules-umd": "^6.24.1",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "jasmine-core": "^3.1.0",
+    "karma": "^2.0.0",
+    "karma-babel-preprocessor": "^7.0.0",
+    "karma-jasmine": "^1.1.1",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "serve": "^6.5.3",
+    "systemjs": "^0.21.0",
+    "systemjs-plugin-babel": "0.0.25"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
